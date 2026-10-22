@@ -1,0 +1,47 @@
+{
+  "installation_path": ".agents/skills",
+  "commands": {
+    "research": {
+      "alias": "/ars-research",
+      "skill": "deep-research",
+      "mode": "full",
+      "fallback_prompt": "[direct-mode] deep-research full: <topik-riset>"
+    },
+    "writing": {
+      "alias": "/ars-write",
+      "skill": "academic-paper",
+      "mode": "full",
+      "fallback_prompt": "[direct-mode] academic-paper full: <tujuan-penulisan>"
+    },
+    "review": {
+      "alias": "/ars-review",
+      "skill": "academic-paper-reviewer",
+      "mode": "full",
+      "fallback_prompt": "[direct-mode] academic-paper-reviewer full: <naskah-untuk-review>"
+    },
+    "full_pipeline": {
+      "alias": "/ars-full",
+      "skill": "academic-pipeline",
+      "mode": "full",
+      "fallback_prompt": "[direct-mode] academic-pipeline full: <proyek-penelitian>"
+    },
+    "citation_check": {
+      "alias": "/ars-citation-check",
+      "skill": "academic-paper",
+      "mode": "citation-check",
+      "fallback_prompt": "[direct-mode] academic-paper citation-check: <draft-dan-daftar-pustaka>"
+    },
+    "revision": {
+      "alias": "/ars-revision",
+      "skill": "academic-paper",
+      "mode": "revision",
+      "fallback_prompt": "[direct-mode] academic-paper revision: <komentar-reviewer-dan-draft>"
+    },
+    "sr_screening": {
+      "alias": "/ars-screen",
+      "skill": "sr-screener",
+      "mode": "ta-screen",
+      "fallback_prompt": "[direct-mode] sr-screener ta-screen: <ekspor-database-dan-kriteria-inklusi-eksklusi>"
+    }
+  }
+}
